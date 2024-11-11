@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danny's Website</title>
+    <link   rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id = "mainCanv">
+        <h1 id = "dannysprojects">DANNY'S PROJECTS</h1>
+        <button id="btn">SEE PROJECTS</button>
+            <div id="allProjects" style="display: none">
+                <button id="fcc" >FREECODECAMP</button>
+                <div id="fccProjects" style="display: none">
+                    <button id="projectFourBtn">POKEMON SEARCH PROJECT</button>
+                    <div id="projectFour" style="display: none">
+                        <input id="search-input" required>
+                        <button id ="search-button">Search</button>
+                        <H1>INFORMATION:<h1>
+                        <img id="sprite"></img>
+                            <h3>NAME:</h3><p id="pokemon-name"></p>
+                            <h3>ID:</h3><p id="pokemon-id">0</p>
+                            <h3>WEIGHT:</h3><p id="weight">0</p>
+                            <h3>HEIGHT:</h3><p id="height">0</p>
+                            <h3>TYPES:</h3><p id="types"></p>
+                            <h3>HP:</h3><p id="hp">0</p>
+                            <h3>ATTACK:</h3><p id="attack">0</p>
+                            <h3>DEFENSE:</h3><p id="defense">0</p>
+                            <h3>SPECIAL ATTACK:</h3><p id="special-attack">0</p>
+                            <h3>SPECIAL DEFENSE:</h3><p id="special-defense">0</p>
+                            <h3>SPEED:</h3><p id="speed">Speed</p>
+                    </div>
+                    <button id="projectThreeBtn">USA # VALIDATOR PROJECT</button>
+                    <div id="projectThree" style="display: none">
+                        <h2>#3 VALID USA PHONE NUMBER PROJECT</h2>
+                        <input id="user-input3"></input><button id="check-btn3">Check</button><button id="clear-btn3">Clear</button>
+                        <p>Is Valid US Number?</p>
+                        <p id="results-div3"></p>
+                    </div>
+                    <button id="projectTwoBtn" >ROMAN NUMERAL CONVERTER PROJECT</button>
+                    <div id ="projectTwo" style="display: none">
+                        <h2>#2 ROMAN NUMERAL CONVERTER PROJECT</h2>
+                        <p>Please choose a number betweenn 1 - 3999</p>
+                        <input id = "number"></input><button id = "convert-btn">Convert</button><button id="clear-btn2">Clear</button>
+                        <p id = "output"></p>
+                    </div>
+                    <button id="projectOneBtn" >PALINDROME CHECKER</button>
+                    <div id="projectOne" style="display: none">
+                        <h2>#1 PALINDROME CHECKER PROJECT</h2>
+                        <p>Please enter a phrase that might be a palindrome:</p>
+                        <input id="text-input"><button id="check-btn">Check</button><button id="clear-btn1">Clear</button>
+                        <p id="result"></p>
+                        <p id="test"></p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

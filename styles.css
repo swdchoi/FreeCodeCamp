@@ -1,0 +1,91 @@
+
+h1, h2, h3 {
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Courier New';
+    margin-top: 15px auto;
+    }
+
+p {
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Courier New';
+    margin: 15px auto;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New';
+    display: block;
+    margin: 10px auto;
+    padding: 2px 20px;
+}
+
+#check-btn {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New';
+    display: block;
+    margin: 10px auto;
+}
+
+input {
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    color:black;
+    font-family: 'Courier New';
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: black;
+}
+
+#btn {
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top:25px;
+}
+
+#dannysprojects {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#fcc {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#projectFour {
+    padding: 50px 50px;
+    margin: 0 200px;
+    background-color: rgb(31, 0, 94)
+}
+
+#projectThree {
+    padding: 50px 50px;
+    margin: 0 200px;
+    background-color: rgb(31, 0, 94)
+}
+#projectTwo {
+    padding: 50px 50px;
+    margin: 0 200px;
+    background-color: rgb(31, 0, 94)
+}
+#projectOne {
+    padding: 50px 50px;
+    margin: 0 200px;
+    background-color: rgb(31, 0, 94)
+}
+
+#stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+

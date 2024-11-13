@@ -6,6 +6,11 @@ h1, h2, h3 {
     margin-top: 15px auto;
     }
 
+.footer{
+    height:100px;
+    background-color: black;
+}
+
 p {
     text-align: center;
     color:aliceblue;
@@ -30,6 +35,13 @@ button {
     font-family: 'Courier New';
     display: block;
     margin: 10px auto;
+}
+
+
+#mainCanv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 input {
@@ -118,3 +130,4 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+

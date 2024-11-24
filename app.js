@@ -1,7 +1,10 @@
-const allProjectBtn = document.getElementById("btn");
-const allProject = document.getElementById("allProjects")
+const fccImage = document.getElementById("fccimage");
+const welcome = document.getElementById("desc");
 
-const fccRevealBtn = document.getElementById("fcc");
+//const allProjectBtn = document.getElementById("btn");
+//const allProject = document.getElementById("allProjects")
+
+//const fccRevealBtn = document.getElementById("fcc");
 const fccProject = document.getElementById("fccProjects");
 
 const pokemonSearchProj = document.getElementById("projectFour");
@@ -16,25 +19,27 @@ const romanNumBtn = document.getElementById("projectTwoBtn");
 const palindromeChk = document.getElementById("projectOne");
 const palindromeChkBtn = document.getElementById("projectOneBtn");
 
-allProjectBtn.addEventListener("click", () => {
+/*allProjectBtn.addEventListener("click", () => {
   if (allProject.style.display === "none") {
     allProject.style.display = "block";
   } else {
     allProject.style.display = "none";
   }
-});
+});*/
 
-fccRevealBtn.addEventListener("click", () => {
+/*fccRevealBtn.addEventListener("click", () => {
   if (fccProject.style.display === "none") {
     fccProject.style.display = "block";
   } else {
     fccProject.style.display = "none";
   }
-});
+});*/
 
 pokemonSearchProjBtn.addEventListener("click", () => {
   if (pokemonSearchProj.style.display === "none") {
     pokemonSearchProj.style.display = "block";
+    fccImage.style.display = "none";
+    welcome.style.display = "none";
   } else {
     pokemonSearchProj.style.display = "none";
   }
